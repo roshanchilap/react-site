@@ -1,7 +1,6 @@
 import React from "react";
 import axios from "axios";
 import "./css/Posts.css";
-import { Table, TableRow, TableCell } from "@material-ui/core";
 import Button from "@material-ui/core/Button";
 import Post from "./Post";
 
