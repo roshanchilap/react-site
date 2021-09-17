@@ -5,7 +5,6 @@ import { Table, TableRow, TableCell } from "@material-ui/core";
 import Button from "@material-ui/core/Button";
 import Post from "./Post";
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>;
 const AppUrl = "https://jsonplaceholder.typicode.com/posts";
 
 class Posts extends React.Component {
