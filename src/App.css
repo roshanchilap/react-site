@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.nav {
+  display: flex;
+  font-size: 20px;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  bottom: 50px;
+  gap: 3rem;
+  right: 3rem;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+.nav:focus,
+.nav:hover {
+  text-decoration: none;
+}
+
+.logo {
+  height: 70px;
+  width: 80px;
+  display: flex;
+}
+
+.show {
+  position: relative;
+  left: 700px;
+}
+.postForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.row:after {
+  display: table;
+  clear: both;
+  content: none;
+}
+.row .col.m6 {
+  width: 33%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+}
+.card-action {
+  display: flex;
+  gap: 17rem;
+}

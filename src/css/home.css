@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  font-family: "Montserrat";
+}
+.nav {
+  display: flex;
+  font-size: 20px;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  bottom: 50px;
+  gap: 3rem;
+  right: 3rem;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+a:hover {
+  color: crimson;
+  text-decoration: underline;
+}
+.nav:focus,
+.nav:hover {
+  text-decoration: none;
+}
+
+.logo {
+  height: 70px;
+  width: 80px;
+  display: flex;
+}
+.explore {
+  height: 70vh;
+  width: 100vh;
+  position: relative;
+  bottom: 5rem;
+}
+h1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 4rem;
+  position: relative;
+  bottom: 4rem;
+  color: #ff6584;
+  text-shadow: 2px 2px #974242;
+  text-transform: uppercase;
+}
+
+.home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h2.head {
+  font-size: 2rem !important;
+}
+
+.react {
+  background-color: #3f3d56;
+  color: antiquewhite;
+  padding: 1rem;
+  border: 2px solid white;
+  border-radius: 1rem;
+  font-weight: bold;
+}
+
+.lang {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.react:hover {
+  background-color: #ea2490;
+  color: black;
+  padding: 1rem;
+  border: 2px solid white;
+  border-radius: 1rem;
+  font-weight: bold;
+}
